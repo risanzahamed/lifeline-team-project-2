@@ -1,7 +1,16 @@
 
+import { StaticImageData } from "next/image";
 import { FaFacebook, FaPhone, FaWhatsapp } from "react-icons/fa";
 
-const VulenteerDetails = ({ vulenter }) => {
+interface Props {
+    vulenter: {
+        img: string;
+        name: string;
+        position: string;
+    };
+}
+
+const VulenteerDetails = ({ vulenter }: Props) => {
     const { img, name, position } = vulenter;
 
     return (

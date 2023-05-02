@@ -14,15 +14,24 @@ module.exports = {
       },
     },
   },
+
   daisyui: {
     themes: [
       {
-        mytheme: {
+        lifelinethemes: {
           primary: "#F26A02",
           secondary: "#001C42",
+          accent: "#FFFFFF",
+          "neutral": "#3D4451",
+          "base-100": "#FFFFFF",
+          "info": "#3ABFF8",
+          "success": "#36D399",
+          "warning": "#FBBD23",
+          "error": "#F87272",
         },
       },
     ],
   },
+
   plugins: [require("daisyui")],
 };

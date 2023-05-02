@@ -35,7 +35,7 @@ const OurVulenteers = () => {
         },
         {
             "id": 1060,
-            "img": "https://ibb.co/PtwpdXj",
+            "img": "https://i.ibb.co/mS6s3ZT/barman.jpg",
             "name": "Suman Chandra Barman",
             "position": "Member"
         }
